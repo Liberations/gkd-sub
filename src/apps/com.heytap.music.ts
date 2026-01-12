@@ -7,7 +7,12 @@ export default defineGkdApp({
     {
       key: 1,
       name: '不再提示',
-      rules: 'android.widget.TextView[text="不再提示"]',
+      rules: 'android.widget.TextView[id="com.heytap.music:id/noShowAgain"]',
+    },
+    {
+      key: 2,
+      name: '关闭',
+      rules: 'android.widget.ImageView[id="com.heytap.music:id/close"]',
     },
   ],
 });
