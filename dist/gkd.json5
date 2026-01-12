@@ -1,1 +1,0 @@
-{id:666,name:'OPPO订阅',version:1,author:'Liberations',checkUpdateUrl:'./gkd.version.json5',supportUri:'https://github.com/Liberations/gkd-sub',categories:[],globalGroups:[],apps:[{id:'com.heytap.music',name:'音乐',groups:[{key:1,name:'不再提示',rules:'android.widget.TextView[text="不再提示"]'}]}]}
