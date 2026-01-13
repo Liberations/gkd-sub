@@ -5,24 +5,14 @@ export default defineGkdApp({
   name: '音乐',
   groups: [
     {
-      key: 1,
-      name: '不再提示',
-      rules: 'android.widget.TextView[id="com.heytap.music:id/noShowAgain"]',
-    },
-    {
-      key: 2,
-      name: '关闭',
-      rules: 'android.widget.ImageView[id="com.heytap.music:id/close"]',
-    },
-    {
-      key: 3,
-      name: '解锁30分钟关闭',
-      rules: 'android.widget.ImageView[id="com.heytap.music:id/iv_close"]',
-    },
-    {
-      key: 4,
-      name: '关闭红包',
-      rules: 'android.widget.ImageButton[id="com.heytap.music:id/ibClose"]',
+      key: 0,
+      name: '开屏广告',
+      rules: [
+        'android.widget.TextView[id="com.heytap.music:id/noShowAgain"]',
+        'android.widget.ImageView[id="com.heytap.music:id/close"]',
+        'android.widget.ImageView[id="com.heytap.music:id/iv_close"]',
+        'android.widget.ImageButton[id="com.heytap.music:id/ibClose"]',
+      ],
     },
   ],
 });
