@@ -19,5 +19,10 @@ export default defineGkdApp({
       name: '解锁30分钟关闭',
       rules: 'android.widget.ImageView[id="com.heytap.music:id/iv_close"]',
     },
+    {
+      key: 4,
+      name: '关闭红包',
+      rules: 'android.widget.ImageButton[id="com.heytap.music:id/ibClose"]',
+    },
   ],
 });
